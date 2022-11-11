@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 800px;
+            height: 600px;
+            background-color: bisque;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .box1 {
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background-color: rebeccapurple;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .box3 {
+            width: 200px;
+            height: 200px;
+            background-color:blue;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+
+        .box4 {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+        .mid_box {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+        }
+
+        /* h1 {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } */
+
+        /* .other_box {
+            width: 800px;
+            height: 600px;
+            background-color: gray;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 40px;
+        } */
+
+        h1 {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0 0;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="mid_box">
+            <h1>BOX 5</h1>
+        </div>
+        <div class="box1">
+            <h1>BOX 1</h1>
+        </div>
+        <div class="box2">
+            <h1>BOX 2</h1>
+        </div>
+        <div class="box3">
+            <h1>BOX 3</h1>
+        </div>
+        <div class="box4">
+            <h1>BOX 4</h1>
+        </div>
+    </div>
+
+    <!-- <div class="other_box">
+        <h1>Phương</h1>
+    </div> -->
+</body>
+</html>

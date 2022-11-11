@@ -1,0 +1,17 @@
+<p> Paragraph 
+<img> Ảnh
+<h1 - h6> 
+<a> thẻ link
+
+
+<b> - In đậm
+<strong> - In đậm từ khóa quan trọng(khác với thẻ <b>,
+khi ta tìm từ khóa thì từ strong nhấn mạnh hơn => tìm keyword dễ
+<i> - In nghiêng
+<em> - Vẫn là in nghiêng nhưng mà mạnh hơn
+<mark> - Đánh dấu nổi bật 
+<small> - Chữ nhỏ
+<del> - Xóa chữ(gạch ngang từ)
+<ins> - Định nghĩa 1 text vừa dc thêm vào và gạch chân từ đó
+<sub> - chữ nhỏ đi dưới 1 nửa dòng(H20)
+<sup> - Chữ được đẩy lên cao giống như bình phương 

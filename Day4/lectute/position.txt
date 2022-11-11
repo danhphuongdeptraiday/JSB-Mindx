@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 1000px;
+        }
+
+        h1 {
+            
+        }
+
+        .Bigger_Box {
+            background-color: antiquewhite;
+            padding: 10px 10px;
+            width: 100%;
+            height: 500px;
+            /* position: relative; */
+        }
+        /* position: fixed */
+        .box1 {
+            width: 500px;
+            height: 100px;
+            background-color: aqua;
+            bottom: 0;
+            
+        }
+        .box2 {
+            width: 500px;
+            height: 100px;
+            background-color: brown;
+            position: fixed;
+            
+            left: 0;
+        }
+
+        .box3 {
+            width: 500px;
+            height: 100px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nguyễn Danh Phương</h1>
+    <div class="Bigger_Box">
+    <div class="box1">Box1</div>
+    <div class="box2">Box2</div>
+    <div class="box3">Box3</div>
+    </div>
+</body>
+</html>
